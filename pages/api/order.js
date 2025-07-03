@@ -1,7 +1,7 @@
 
-import generateBarcode from '../../../lib/barcodeGenerator';
-import appendOrder from '../../../lib/googleSheets';
-import sendEmail from '../../../lib/emailSender';
+import generateBarcode from '../../lib/barcodeGenerator';
+import appendOrder from '../../lib/googleSheets';
+import sendEmail from '../../lib/emailSender';
 
 export default async function handler(req, res) {
   if (req.method === 'POST') {
